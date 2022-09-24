@@ -123,6 +123,10 @@ body {
     cursor: pointer;
 
 }
+span{
+    color: rgb(255, 89, 0);
+    font-weight: bolder;
+}
 
 label {
     display: block;
