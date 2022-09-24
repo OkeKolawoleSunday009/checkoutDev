@@ -153,7 +153,9 @@ label {
 
 
 .img{
-    background-image: url("./image/more than 1 reg.PNG");
+    background-image: url("./image/WIN_20220921_11_21_09_Pro.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
     width: 150px;
     height: 150px;
     border-radius: 10px;
@@ -169,10 +171,13 @@ label {
     height: 30px;
     border-radius: 5px;
     border: none;
+    text-align: center;
+    background-color: gray;
+    text-align: center;
 
 }
 .prime .btnValue{
-    background-color: gray;
+    background-color: rgb(226, 221, 221);
     text-align: center;
 
 }
@@ -205,6 +210,8 @@ label [for="compulsory"], .compulsory{
     background-color: orange;
     float: right;
 }
+
+
 @media screen and (max-width: 1200px) {
     body {
        margin: 0;
@@ -248,17 +255,15 @@ label [for="compulsory"], .compulsory{
     margin: 0;
     padding: 10px;
 }
-input::placeholder{
+ input::placeholder{
     display: flex;
     /* float: right; */
     font-size: 12px;
     padding-left: 40px;
   }
 
-  label {
-    
+label {  
     font-size: 13px;
-
 }
 .info{
    font-size: 14px;
