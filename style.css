@@ -100,7 +100,7 @@ body {
     height: 500px;
     display: flex;
     flex-direction: column;
-    background-color: gray;
+    background-color: rgb(179, 177, 177);
     border-radius: 20px;
 }
 .box_two{
@@ -180,7 +180,7 @@ label {
     border-radius: 5px;
     border: none;
     text-align: center;
-    background-color: beige;
+    background-color: rgb(252, 252, 247);
     text-align: center;
 
 }
